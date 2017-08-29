@@ -58,6 +58,7 @@
 - (void) getBluetoothState: (CDVInvokedUrlCommand*)command;
 - (void) requestBluetoothAuthorization: (CDVInvokedUrlCommand*)command;
 
+- (void) getNotificationAuthorizationStatus: (CDVInvokedUrlCommand*)command;
 - (void) isRemoteNotificationsEnabled: (CDVInvokedUrlCommand*)command;
 - (void) getRemoteNotificationTypes: (CDVInvokedUrlCommand*)command;
 - (void) isRegisteredForRemoteNotifications: (CDVInvokedUrlCommand*)command;

@@ -165,6 +165,14 @@ var Diagnostic = (function(){
             []);
     };
 
+    Diagnostic.getNotificationAuthorizationStatus = function(successCallback, errorCallback) {
+        return cordova.exec(successCallback,
+            errorCallback,
+            'Diagnostic',
+            'getNotificationAuthorizationStatus',
+            []);
+    };
+
     /**
      * Returns the location authorization status for the application.
      *
